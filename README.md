@@ -1,6 +1,3 @@
-This is a basic todo application built using Next.js, a popular React framework that leverages Server Side Components (SSC). The app allows users to create and manage their todo items.
-
-
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
