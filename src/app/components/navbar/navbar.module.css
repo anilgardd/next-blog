@@ -25,3 +25,46 @@
   font-size: 36px;
   font-weight: bold;
 }
+
+@media screen and (max-width: 1280px) {
+  .logo {
+    font-size: 32px;
+  }
+  .links {
+    font-size: 18px;
+    gap: 15px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .social {
+    display: none;
+  }
+  .logo {
+    font-size: 28px;
+    text-align: left;
+  }
+  .links {
+    font-size: 16px;
+    gap: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .logo {
+    font-size: 24px;
+  }
+  .links {
+    font-size: 14px;
+    gap: 8px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .logo {
+    font-size: 20px;
+  }
+  .link {
+    display: none;
+  }
+  .links {
+    justify-content: flex-end;
+  }
+}

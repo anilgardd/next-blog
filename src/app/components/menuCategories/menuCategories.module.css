@@ -1,0 +1,30 @@
+.category {
+  padding: 3px 8px;
+  border-radius: 10px;
+  font-size: 12px;
+  color: white;
+  width: max-content;
+}
+
+.category.travel {
+  background-color: orange;
+}
+
+.category.fashion {
+  background-color: #da85c731;
+}
+
+.category.food {
+  background-color: #7fb88133;
+}
+.category.travel {
+  background-color: #ffb04f45;
+}
+.category.culture {
+  background-color: #ff705736;
+  width: max-content;
+}
+
+.categoryItem {
+  text-transform: capitalize;
+}
