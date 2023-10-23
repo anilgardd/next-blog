@@ -1,0 +1,72 @@
+.container {
+  margin-top: 50px;
+}
+.input {
+  resize: none;
+}
+
+.title {
+  color: var(--softTextColor);
+  margin-bottom: 30px;
+}
+
+.write {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.input {
+  width: 100%;
+  padding: 20px;
+}
+.button {
+  padding: 16px 20px;
+  color: white;
+  background-color: teal;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.comment {
+  margin-bottom: 50px;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.avatar {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.comments {
+  margin-top: 50px;
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color: var(--softTextColor);
+}
+
+.userName {
+  font-weight: 500;
+}
+
+.date {
+  font-size: 14px;
+}
+
+.desc {
+  font-size: 18px;
+  font-weight: 300;
+}

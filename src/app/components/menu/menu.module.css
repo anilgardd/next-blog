@@ -87,3 +87,17 @@
 .categoryItem {
   text-transform: capitalize;
 }
+
+@media screen and (max-width: 1280px) {
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 640px) {
+}

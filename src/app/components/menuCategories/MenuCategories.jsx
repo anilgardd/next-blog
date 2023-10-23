@@ -7,20 +7,20 @@ const MenuCategories = () => {
       <Link href="/blog" className={`${styles.categoryItem} ${styles.style}`}>
         style
       </Link>
+      <Link href="/blog" className={`${styles.categoryItem} ${styles.fashion}`}>
+        fashion
+      </Link>
       <Link href="/blog" className={`${styles.categoryItem} ${styles.food}`}>
         Food
+      </Link>
+      <Link href="/blog" className={`${styles.categoryItem} ${styles.travel}`}>
+        travel
       </Link>
       <Link href="/blog" className={`${styles.categoryItem} ${styles.culture}`}>
         culture
       </Link>
       <Link href="/blog" className={`${styles.categoryItem} ${styles.coding}`}>
         coding
-      </Link>
-      <Link href="/blog" className={`${styles.categoryItem} ${styles.fashion}`}>
-        fashion
-      </Link>
-      <Link href="/blog" className={`${styles.categoryItem} ${styles.travel}`}>
-        travel
       </Link>
     </div>
   );
